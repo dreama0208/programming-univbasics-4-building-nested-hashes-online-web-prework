@@ -32,6 +32,6 @@ def monopoly_with_fourth_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
 	monopoly = {
-	:railroads => {pieces: 4, rent_in_dollars: {a:1,b:2,c:3,d:4}}
+	:railroads => {pieces: 4, rent_in_dollars: {one_piece_owned:1, two_pieces_owned:2, three_pieces_owned:3, four_pieces_owned:4}}
 }
 end
